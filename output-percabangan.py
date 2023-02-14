@@ -1,2 +1,31 @@
 print("Masukan Angka '1' untuk Menginput Data secara Manual atau Masukan Angka '2' untuk Menginput Data secara Otomatis! ")
+pilihan = input("Pilihan ? [1/2] ")
+if pilihan == "1":
 
+    nama = input("Masukan Nama Anda! ")
+    nim = input("Masukan NIM Anda! ")
+    jurusan = input("Masukan Jurusan Anda! ")
+    fakultas = input("Masukan Fakultas Anda! ")
+
+    print("")
+    print("UNIVERSITAS KOMPUTER INDONESIA")
+    print("Jl Dipati Ukur 112-114, Bandung")
+    print("-------------------------------------------------------")
+    print("Nama       :",nama)
+    print("NIM        :",nim)
+    print("Jurusan    :",jurusan)
+    print("Fakultas   :",fakultas)
+    print("-------------------------------------------------------")
+    print("")
+
+if pilihan == "2":
+    print("")
+    print("UNIVERSITAS KOMPUTER INDONESIA")
+    print("Jl Dipati Ukur 112-114, Bandung")
+    print("-------------------------------------------------------")
+    print("Nama       : Raflie Supriatna Putra")
+    print("NIM        : 10220008")
+    print("Jurusan    : Sistem Komputer (S1)")
+    print("Fakultas   : Teknik dan Ilmu Komputer")
+    print("-------------------------------------------------------")
+    print("")
